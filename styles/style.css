@@ -10,17 +10,18 @@ p {
     font-family: "Courier";
     font-size: 20px;
     margin: 10px 0 0 10px;
+    text-align: left;
     white-space: nowrap;
     overflow: hidden;
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
-    animation: type 4s steps(100, end);
+    animation: type 4s steps(300, end);
 }
 
 @keyframes type {
     from {
-        width: 0;
+        width: 10%;
     }
 
     ;
@@ -34,3 +35,5 @@ p {
 .hidden {
     display: none;
 }
+
+
