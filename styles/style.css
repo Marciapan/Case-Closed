@@ -11,20 +11,24 @@ p {
     font-size: 20px;
     margin: 10px 0 0 10px;
     text-align: left;
-    white-space: nowrap;
-    overflow: hidden;
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
-    animation: type 4s steps(300, end);
 }
 
-@keyframes type {
-    from {
-        width: 10%;
-    }
-
-    ;
+#knop1 {
+    background-color: rgb(60, 194, 60);
+    border-radius: 5px;
+    text-align: center;
+    width: 60%;
+    height: 10%;
+    display: hidden;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
 }
 
 
@@ -36,4 +40,6 @@ p {
     display: none;
 }
 
-
+.visible {
+    display: flex;
+}
