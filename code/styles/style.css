@@ -1,0 +1,14 @@
+body {
+    background-color: green;
+    color: black;
+    flex-direction: column;
+    font-size: large;
+}
+
+.flexbox{
+    display: flex;
+}
+
+.hidden{
+    display: none;
+}
