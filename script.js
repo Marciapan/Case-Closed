@@ -83,7 +83,7 @@ function checkAnswerEmail() {
 }
 //Goede nummer invoeren!!!!!!!!!!!!!!!!!!!!!!!!
 function checkAnswerPassword(){
-    if(passwordField.value == "1234"){
+    if(passwordField.value == "Welkom1!"){
         background.classList.remove("hackerPic");
         typeWriter3();
         console.log("Succes");

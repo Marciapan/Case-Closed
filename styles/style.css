@@ -37,7 +37,13 @@ input {
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 20px;
+    /* animation-name: fadeIn; */
 }
+
+/* @keyframes fadeIn {
+    from {opacity: 0%;}
+    to {opacity: 100%}
+  } */
 
 
 .flexbox {
