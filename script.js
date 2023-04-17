@@ -21,6 +21,7 @@ var txt1 = 'Hallo inspecteurs, ik heb een missie voor jullie.' +
     'Hints in deze koffer helpen jullie op weg. '+
     ' Na het doorgeven van het E-mailadres krijgen jullie van mij de volgorde van de nummers op het slot';
 var txt2 = 'Hallo inspecteurs, jullie hebben het E-mailadres te pakken. ' +
+    'De combinatie voor het slot in de koffer is 3187. '+
     'We zijn nu op zoek naar het wachtwoord van de hacker die de hva gaat aanvallen. ' +
     'Als je denkt het wachtwoord te hebben, kan je het aan mij doorgeven.';
 var txt3 = 'Hallo inspecteurs, dank jullie wel voor het E-mailadres en het wachtwoord. '+
@@ -83,7 +84,7 @@ function checkAnswerEmail() {
 }
 //Goede nummer invoeren!!!!!!!!!!!!!!!!!!!!!!!!
 function checkAnswerPassword(){
-    if(passwordField.value == "Welkom1!"){
+    if(passwordField.value == "Welkom7!"){
         background.classList.remove("hackerPic");
         typeWriter3();
         console.log("Succes");
