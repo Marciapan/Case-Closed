@@ -71,7 +71,7 @@ function showEmail() {
 }
 
 function checkAnswerEmail() {
-    if (emailField.value != "luciajonkhoff@outlook.nl") {
+    if (emailField.value != "lucia.jonkhoff@outlook.nl") {
         console.log("fail");
         background.classList.add("hackerPic");
         alert("Dit was een slecht idee, ik had andere mensen moeten gebruiken.");
