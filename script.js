@@ -16,7 +16,7 @@ var counter2 = 0;
 var counter3 = 0;
 var txt1 = 'Hallo inspecteurs, ik heb een missie voor jullie.' +
     // ' Alleen via deze website is het veilig om te communiceren. '+
-    ' Een hacker wilt de data van de HvA stelen en wij moeten hem tegenhouden.' +
+    ' Een hacker wil de data van de HvA stelen en wij moeten hem tegenhouden.' +
     ' Vind het E-mailadres en het wachtwoord van de hacker, voordat hij zijn aanval loslaat. ' +
     'Hints in deze koffer helpen jullie op weg. '+
     ' Na het doorgeven van het E-mailadres krijgen jullie van mij de volgorde van de nummers op het slot';
