@@ -29,6 +29,7 @@ var txt3 = 'Hallo inspecteurs, dank jullie wel voor het E-mailadres en het wacht
             'Jullie hebben mij de sleutel gegeven tot alle data van de HvA. '+
             'Terwijl jullie bezig waren met alle puzzels, was ik bezig met het hacken van de beveiliging. '+
             'Het enige dat ik nog nodig had was een ingang. '+
+            'Nu heb ik alles om de data van de HvA te gijzelen. '+
             'Hartelijk bedankt.';
 var speed = 50; 
 
@@ -72,7 +73,7 @@ function showEmail() {
 }
 
 function checkAnswerEmail() {
-    if (emailField.value != "lucia.jonkhoff@outlook.nl") {
+    if (emailField.value != "luciajonkhoff@outlook.nl") {
         console.log("fail");
         background.classList.add("hackerPic");
         alert("Dit was een slecht idee, ik had andere mensen moeten gebruiken.");
@@ -84,7 +85,7 @@ function checkAnswerEmail() {
 }
 //Goede nummer invoeren!!!!!!!!!!!!!!!!!!!!!!!!
 function checkAnswerPassword(){
-    if(passwordField.value == "Welkom7!"){
+    if(passwordField.value == "Welkom7!?"){
         background.classList.remove("hackerPic");
         typeWriter3();
         console.log("Succes");
